@@ -9,7 +9,7 @@
 import React, { useState } from 'react';
 
 function Form() {
-  const [inputValue, setInputValue] = useState('');
+  const [inputValue, setInputValue] = useState('ENTER YOUR NAME HERE');
 
   /**
    * Event handler for input change.
@@ -32,6 +32,7 @@ function Form() {
         <p>Your name is: {inputValue}</p>
       </form>
       </center>
+      
       
     </div>
   )

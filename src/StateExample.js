@@ -14,7 +14,7 @@ function StateExample() {
     return (
         <div>
             <p>Hi, You clicked this button {count} times</p>
-            <button onClick={() => setCount(count + 1)}>
+            <button onClick={() => setCount(count + 2)}>
             Click me
         </button>
         </div>

@@ -16,11 +16,11 @@ function MyComponent(props) {
     );
 }
 
-const App1 = () => {
+const MyFunction = () => {
     return (
       <div>
           <MyComponent title="Hello World" message="This is my first functional component" />
       </div>
     );
   };
-export default App1;
+export default MyFunction;

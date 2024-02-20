@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-
 //import App from './App';
 //import MyComponent from './MyCompClass';
 //.import App1 from './App1';
@@ -15,11 +14,21 @@ import './index.css';
 //import App2 from './App2';
 import StateExample from './StateExample';
 import reportWebVitals from './reportWebVitals';
+import MyFunction from './MyCompFunc';
+import MyComponent from './MyCompClass';
+import Form from './Forms'
+import TableMain from './Table'
+import MyForm from './MyForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <MyComponent/>
     <StateExample/>
+    <MyFunction/>
+    <Form/>
+    <TableMain/> */}
+    <MyForm/>
   </React.StrictMode>
 );
 
